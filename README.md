@@ -5,7 +5,7 @@ lib for sizl
 ## Installation
 
 ```sh
-npm install react-native-xd5-405-label-printer
+yarn add react-native-xd5-405-label-printer
 ```
 
 ## Usage
