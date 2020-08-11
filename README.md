@@ -15,7 +15,7 @@ import Xd5405LabelPrinter from "react-native-xd5-405-label-printer";
 
 // ...
 
-const result = await Xd5405LabelPrinter.multiply(3, 7);
+
 ```
 
 ## Contributing
