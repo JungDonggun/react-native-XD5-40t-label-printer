@@ -127,7 +127,7 @@ android {
   }
 
   defaultConfig {
-    applicationId "com.example.reactnativexd5405labelprinter"
+    applicationId "com.sizl.reactnativexd5405labelprinter"
     minSdkVersion rootProject.ext.minSdkVersion
     targetSdkVersion rootProject.ext.targetSdkVersion
     versionCode 1

@@ -1,6 +1,6 @@
 # react-native-xd5-405-label-printer
 
-lib for sizl
+react-native plugin for the bluetooth XD5-40t printer
 
 ## Installation
 
