@@ -9,7 +9,8 @@
 .vscode/
 jsconfig.json
 
-/example
+/example/node_modules
+
 
 # Xcode
 #

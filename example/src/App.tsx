@@ -1,19 +1,13 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Xd5405LabelPrinter from 'react-native-xd5-405-label-printer';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   React.useEffect(() => {
-    Xd5405LabelPrinter.multiply(3, 7).then(setResult);
+    console.log('@@@@@@@@@@@', Xd5405LabelPrinter);
   }, []);
 
-  return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
-  );
+  return <View style={styles.container} />;
 }
 
 const styles = StyleSheet.create({
