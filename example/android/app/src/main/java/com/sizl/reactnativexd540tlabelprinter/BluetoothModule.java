@@ -3,12 +3,15 @@ package com.sizl.reactnativexd540tlabelprinter;
 import com.bixolon.labelprinter.BixolonLabelPrinter;
 
 public class BluetoothModule {
-  public static BixolonLabelPrinter mBixolonLabelPrinter;
+  public BixolonLabelPrinter mBixolonLabelPrinter;
 
   BluetoothModule() {
-    PrintEventHandler printHandler = new PrintEventHandler();
-    mBixolonLabelPrinter = new BixolonLabelPrinter(null, printHandler.mHandler, null);
+    mBixolonLabelPrinter= new BixolonLabelPrinter(this, null, null);
   }
+
+//  public PrintEventHandler printHandler;
+
+
 
 
   public void findBluetoothPrinters() {

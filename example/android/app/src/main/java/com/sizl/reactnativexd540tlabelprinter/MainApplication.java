@@ -27,7 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
         @SuppressWarnings("UnnecessaryLocalVariable")
         List<ReactPackage> packages = new PackageList(this).getPackages();
         // Packages that cannot be autolinked yet can be added manually here, for Xd5405LabelPrinterExample:
-        // packages.add(new MyReactNativePackage());
+//         packages.add(new MyReactNativePackage());
 //        packages.add(new Xd5405LabelPrinterPackage());
         packages.add(new MyPackage());
 

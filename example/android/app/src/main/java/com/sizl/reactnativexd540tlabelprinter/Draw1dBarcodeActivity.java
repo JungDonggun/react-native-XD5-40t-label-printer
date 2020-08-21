@@ -1,6 +1,6 @@
 package com.sizl.reactnativexd540tlabelprinter;
 
-
+import com.facebook.react.bridge.ReactApplicationContext;
 import android.util.Log;
 
 import com.bixolon.labelprinter.BixolonLabelPrinter;
@@ -12,8 +12,8 @@ public class Draw1dBarcodeActivity {
   private int mBarcodeSelection = BixolonLabelPrinter.BARCODE_CODE128;
   private int mHri = BixolonLabelPrinter.HRI_NOT_PRINTED;
 
-  public void print1dBarcode() {
-    mBixolonLabelPrinter = new BixolonLabelPrinter(null, printHandler.mHandler, null);
+  public void print1dBarcode(ReactApplicationContext context) {
+    mBixolonLabelPrinter = new BixolonLabelPrinter(context, null, null);
 
     String data = "SIZL_DK_TEST";
     int horizontalPosition = 300;
